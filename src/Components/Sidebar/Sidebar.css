@@ -1,0 +1,106 @@
+.sidebar {
+    position: relative;
+    width: 240px; 
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 15px;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #202224;
+    font-size: 14px;
+    position: relative;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .sidebar a.active {
+    font-weight: bold;
+    color: #007bff;
+    background-color: rgba(0, 123, 255, 0.1); 
+  }
+  
+  .sidebar a:hover {
+    background-color: rgba(0, 123, 255, 0.1); 
+  }
+  
+  
+  .sidebar a .nav-item {
+    position: absolute;
+  }
+  
+  
+  .sidebar a .nav-item.light {
+    position: absolute;
+    left: -0.14%;
+    right: 83.47%;
+    top: 7.57%;
+    bottom: 87.76%;
+  }
+  
+  
+  .sidebar a .nav-item.products {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  
+  
+  .sidebar a .nav-item.hide-bg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0;
+  }
+  
+  
+  .sidebar a .nav-item.products-text {
+    position: absolute;
+    visibility: hidden;
+    height: 19px;
+    left: 32.5%;
+    right: 36.67%;
+    top: calc(50% - 19px / 2 + 0.5px);
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+    color: #202224;
+  }
+  
+  
+  .sidebar a .nav-item.icon {
+    position: absolute;
+    height: 25px;
+    left: 16.67%;
+    right: 74.17%;
+    top: calc(50% - 25px / 2 + 0.5px);
+    font-family: 'LineAwesome', sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
